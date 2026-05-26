@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pharmacie & Médecine</title>
+  <title>Géographie</title>
   <style>
     body {
       font-family: Georgia, serif;
@@ -39,25 +39,39 @@
 </head>
 <body>
   <a class="retour" href="https://Gitaillot.github.io/">← Accueil</a>
-  <h1>⚕️ Pharmacie & Médecine</h1>
-  <p class="sous-titre">Outils d'apprentissage en pharmacie & médecine</p>
+  <h1>⚕️ Géographie</h1>
+  <p class="sous-titre">Outils d'apprentissage de cartes et de géographie</p>
 
   <h2>✅ Finalisés</h2>
   <ul id="finalises">
-    <li><span class="vide">Aucun pour l'instant.</span></li>
+    <li>
+      <a class="projet" href="Departements_Francais.html">Departements_Francais.html</a>
+      <span class="desc">— Départements Francais</span>
+      <span id="derniere-Departements_Francais" class="jamais"></span>
+    </li>
   </ul>
 
   <h2>🚧 En travaux</h2>
   <ul id="en-cours">
     <li>
-      <a class="projet" href="Med_Essentiels.html">Med_Essentiels.html</a>
-      <span class="desc">— Médicaments Essentiels — Pharmacologie</span>
-      <span id="derniere-Med_Essentiels" class="jamais"></span>
+      <a class="projet" href="18_Regions_Francaises.html">18_Regions_Francaises.html</a>
+      <span class="desc">— 18 Régions Francaises</span>
+      <span id="derniere-18_Regions_Francaises" class="jamais"></span>
     </li>
     <li>
-      <a class="projet" href="Valeurs_Usuelles.html">Valeurs_Usuelles.html</a>
-      <span class="desc">— Entraînement aux valeurs usuelles de physiologie et biochimie</span>
-      <span id="derniere-Valeurs_Usuelles" class="jamais"></span>
+      <a class="projet" href="Deutsche_Laender.html">Deutsche_Laender.html</a>
+      <span class="desc">— Deutsche Länder</span>
+      <span id="derniere-Deutsche_Laender" class="jamais"></span>
+    </li>
+    <li>
+      <a class="projet" href="Grand_Quiz_Regions.html">Grand_Quiz_Regions.html</a>
+      <span class="desc">— Le Grand Quiz des Régions Francaises</span>
+      <span id="derniere-Grand_Quiz_Regions" class="jamais"></span>
+    </li>
+    <li>
+      <a class="projet" href="Pays_Afrique.html">Pays_Afrique.html</a>
+      <span class="desc">— Pays d'Afrique</span>
+      <span id="derniere-Pays_Afrique" class="jamais"></span>
     </li>
     <!-- Ajoutez vos HTML ici sur ce modèle :
     <li>
@@ -93,8 +107,11 @@
     }
 
     // Ajoutez une ligne par programme :
-    afficherDerniere('Med_Essentiels_derniere_utilisation', 'derniere-Med_Essentiels');
-    afficherDerniere('Valeurs_Usuelles_derniere_utilisation', 'derniere-Valeurs_Usuelles');
+    afficherDerniere('18_Regions_Francaises_derniere_utilisation', 'derniere-18_Regions_Francaises');
+    afficherDerniere('Departements_Francais_derniere_utilisation', 'derniere-Departements_Francais');
+    afficherDerniere('Deutsche_Laender_derniere_utilisation', 'derniere-Deutsche_Laender');
+    afficherDerniere('Grand_Quiz_Regions_derniere_utilisation', 'derniere-Grand_Quiz_Regions');
+    afficherDerniere('Pays_Afrique_derniere_utilisation', 'derniere-Pays_Afrique');
   </script>
 </body>
 </html>
